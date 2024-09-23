@@ -83,7 +83,7 @@ const App = () => {
         });
         if(data.isAdmin==='false')
             data.isAdmin=false;
-        else
+        else if(data.isAdmin)
             data.isAdmin=true;
         Setuser(data);
     }
